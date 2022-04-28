@@ -1,0 +1,129 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        text-align: justify;
+    }
+    
+    body {
+        background-image: url(/images/arriere-plan-cv-16.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 80%;
+        margin: auto;
+        /* background-attachment: fixed; INUTILE? */
+    }
+    
+    header {
+        width: 100%;
+        height: auto;
+        border: 2px solid rgb(9, 9, 201);
+        background-image: url(/images/vagueMainNav.jpg);
+        background-size: cover;
+        padding: 20px;
+    }
+    
+    .mainNav>a {
+        margin: 100px;
+        text-decoration: none;
+        size: 20px;
+        overflow: visible;
+        /* text-align: justify; NE MARCHE PAS*/
+        color: rgb(54, 3, 3);
+        opacity: 0.8;
+    }
+    
+    .moi {
+        width: auto;
+        height: auto;
+        margin: 25px;
+        /* position: sticky; NE MARCHE PAS*/
+        text-align: center;
+        opacity: 1;
+        border: 2px solid brown; /*A SUPPRIMER */
+    }
+    
+    .block-img{
+        width: auto;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    img{
+        margin: 10px;
+        padding: 25px;
+        opacity: 0.2;
+    }
+    
+    .posteCiblé{
+        width: 900px;
+        border: 4px outset;
+        margin: 25px;
+        padding: 25px;
+        opacity: 0.7;
+    }
+    
+    .Expérience{
+        width: 900px;
+        border: 4px outset;
+        margin: 25px;
+        padding: 25px;
+        opacity: 0.7;
+    }
+    
+    .Formation{
+        width: 900px;
+        border: 4px outset;
+        margin: 25px;
+        padding: 25px;
+        opacity: 0.7;
+    }
+    .Compétences{
+        border: 4px outset;
+        margin: 25px;
+        padding: 25px;
+        opacity: 0.7;
+    }
+    .CentreIntérêts{
+        width: 500px;
+        border: 4px outset;
+        margin: 25px;
+        padding: 25px;
+        opacity: 0.7;
+    }
+    .block-général{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+    .block-gauche{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .block-droit{
+        display: flex;
+        flex-direction: column;
+        }
+    
+    footer {
+        width: auto;
+        height: auto;
+        border: 2px solid rgb(9, 9, 201);
+        background-image: url(/images/vagueMainNav.jpg);
+        background-size: cover;
+        padding: 10px;
+    }
+    footer>p {
+        margin: 5px;
+        size: 20px;
+        overflow: visible;
+        color: rgb(54, 3, 3);
+        opacity: 0.8;
+    }
+    footer>p>a{
+        text-decoration: none;
+    }
+    
+}
