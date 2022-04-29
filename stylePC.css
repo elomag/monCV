@@ -101,6 +101,12 @@
         opacity: 0.7;
     }
 
+
+    .Compétences{order: 1;}
+    .Expérience{order: 2;}
+    .Formation{order: 4;}
+    .CentreIntérêts{order: 3;}
+
 /* ************************************************************** */
     .int-form{
         background-color: ;
@@ -156,12 +162,9 @@
     
 }
 
-@media only screen (max-device-width : 767px){
+@media only screen and (max-device-width : 767px){
     .block-général{
         flex-direction: column;
     }
-    /* .Compétences{order: 1;}
-    .Expérience{order: 2;}
-    .Formation{order: 3;}
-    .CentreIntérêts{order: 4;} */
+
 }
